@@ -1,0 +1,10 @@
+C      = 1.0;      % uF/cm^2               membrane capacitance per unit area
+g_Na   = 120;      % uA/mV/cm^2            Na+ conductance per unit area
+g_K    = 36;       % uA/mV/cm^2            K+ conductance per unit area
+g_L    = 0.3;      % uA/mV/cm^2            leakage conductance per unit area
+E_Na   = 45;       % mV                    equilibrium potential for Na+
+E_K    = -82;      % mV                    equilibrium potential for K+
+E_L    = -59;      % mV                    equilibrium potential for leakage current
+a      = 0.0238;   % cm                    radius of axon
+rho    = 0.0354;   % mV/uA*cm              resistivity of axoplasm
+L      = 100;      % cm                    length of the axon ( 100cm is really long, 10cm would be more realistic )
